@@ -1,0 +1,28 @@
+.icons{
+    display: grid;
+    grid-template-columns: 70px 70px;
+    align-items: center;
+    color: white;
+}
+.info-icon{
+    background-color: #ff4646;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.login-icon{
+    background-color: #ff4646;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,53 @@
+@media (min-width: 10px) and (max-width: 950px){
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: 60px 60px;
+        align-items: center;
+        color: white;
+        margin-left: 110px;
+    }
+    .info-icon{
+        background-color: #ff4646;
+        height: 32px;
+        width: 32px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+    }
+    .login-icon{
+        background-color: #ff4646;
+        height: 32px;
+        width: 32px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+    }
+    .container{
+        margin-top: 200px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        z-index: -5;
+    }
+    .items{
+        display: flex;
+        justify-content: space-between;
+    }
+    .time-image{
+        width: 300px;
+        height: 300px;
+    }
+    .left-section-2 span{
+        color: #ffc848;
+    }
+}

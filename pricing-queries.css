@@ -1,0 +1,55 @@
+@media (min-width: 10px) and (max-width: 950px){
+    .container-pricing{
+        margin-top: 200px;
+        font-family: Arial;
+    }
+    .container-pricing{
+        display: grid;
+        grid-template-columns: 250px;
+        row-gap: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-item{
+        display: inline-block;
+        color: black;
+        border-color: #ff4646;
+        border-width: 3px;
+        border-style: solid;
+        height: 350px;
+        width: 250px;
+        text-align: center;
+        border-radius: 7px;
+    }
+    .name-item{
+        background-color: #ff4646;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+    .name-item h2{
+        font-family: Arial;
+        font-weight: 200;
+    }
+    .price-item h1 span{
+        color: gray;
+    }
+    .buy-now{
+        background-color: #ff4646;
+        color: white;
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 80px;
+        padding-right: 80px;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: 0.25s;
+    }
+    .buy-now:hover{
+        background-color: #ff1f1f;
+    }
+    .buy-now:active{
+        opacity: 0.7;
+    }
+}
